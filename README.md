@@ -21,3 +21,17 @@ Ask yourself the same two questions:
       set up RSpec - rspec --init
       Ruby Errors and RSpec Errors - difference.
 6. Passing your first unit test
+      No tests no failures on running RSpec
+7. Feature Tests
+8. Unit tests
+    One liner syntax
+    1 test 1 failure
+    Add method to release bike - RSpec passes
+9. Building a bike
+      new bike spec
+      bike class
+      Two basic passing tests
+10. Release Bikes from Docking stations
+      New test to release working Bikes
+      Working bike - true.
+11.
