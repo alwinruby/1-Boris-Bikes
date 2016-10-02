@@ -34,4 +34,11 @@ Ask yourself the same two questions:
 10. Release Bikes from Docking stations
       New test to release working Bikes
       Working bike - true.
-11.
+11. Instance Variables
+        Next user stories - dock the bike and check bike is docked at docking station.  
+12. Raising Expectations
+        If no bikes - no bikes to be released
+13. Limiting capacity
+        Add the tests so that errors will be raised if docking station is full or empty.
+        
+14.
