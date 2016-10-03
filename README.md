@@ -27,18 +27,27 @@ Ask yourself the same two questions:
     One liner syntax
     1 test 1 failure
     Add method to release bike - RSpec passes
+
 9. Building a bike
       new bike spec
       bike class
       Two basic passing tests
+
 10. Release Bikes from Docking stations
       New test to release working Bikes
       Working bike - true.
+
 11. Instance Variables
         Next user stories - dock the bike and check bike is docked at docking station.  
+
 12. Raising Expectations
         If no bikes - no bikes to be released
+
 13. Limiting capacity
         Add the tests so that errors will be raised if docking station is full or empty.
-        
-14.
+
+14. Complex Attributes
+        Releasing more than one bike.
+        Default capacity of bikes
+
+15. Single Responsibility Principle
