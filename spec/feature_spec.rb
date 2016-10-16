@@ -7,5 +7,5 @@ bikes.each { |bike| bike.report_broken }
 garage = Garage.new
 van = Van.new
 garage.dock(bikes)
-van.load_bikes(garage.release_bikes)
-van.unload_bikes.each {|bike| station.dock(bike) }
+# van.load_bikes(garage.release_bikes)
+# van.unload_bikes.each {|bike| station.dock(bike) }
