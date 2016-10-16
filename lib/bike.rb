@@ -1,7 +1,7 @@
 class Bike
 
   def working?
-    true
+    !broken?
   end
 
   def report_broken
@@ -10,5 +10,10 @@ class Bike
 
   def broken?
     @broken
+  end
+
+  def fix
+    @broken = false
+    true
   end
 end

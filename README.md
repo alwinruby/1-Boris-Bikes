@@ -51,3 +51,29 @@ Ask yourself the same two questions:
         Default capacity of bikes
 
 15. Single Responsibility Principle
+        Private
+        SOLID
+
+16. Remove Magic Numbers
+        Default Numbers
+
+17. Initialising Defaults
+        A capacity is initialised
+        Check that the capacity may not be exceeded.
+
+18. Broken Bikes
+        Red-Green-Refactor for not releasing broken bikes.
+        Ask question if bike is Broken or not.
+
+19. Isolating Tests - Doubles
+        Unit testing - tests under a larger umbrella
+
+20. Mocking Behaviour
+        London style testing - every dependency mocked using Doubles - Interaction
+        Chicago style testing - state and behaviour based TDD
+
+21. Men with Ven
+        Remove broken bikes - limits on capacity
+
+22. Mixins modude s
+        mixin 
