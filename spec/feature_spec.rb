@@ -3,11 +3,9 @@ require 'bike'
 
 station = DockingStation.new
 bikes = [Bike.new, Bike.new, Bike.new, Bike.new]
-
 bikes.each { |bike| bike.report_broken }
-
-bikes.each { |bike| station.dock(bike) }
-van = Van.new
-van.load_bikes(bikes)
 garage = Garage.new
-garage.dock(van.unload_bikes)
+van = Van.new
+garage.dock(bikes)
+van.load_bikes(garage.release_bikes)
+van.unload_bikes.each {|bike| station.dock(bike) }
